@@ -1,0 +1,26 @@
+{% extends 'site/index.html' %}
+{%load static%}
+
+
+<!--Block content goes below-->
+{% block content %}
+
+<style>
+        .framehightforgform{
+                height: calc(100vh - 95px) !important;
+                width: 100% !important;
+        }
+    
+        </style>
+
+<iframe 
+class="framehightforgform "
+src="https://docs.google.com/forms/d/e/1FAIpQLSe5ITSi_p2_OEy-OHO-t0_WfwrE76O9DjkPchIxT9E1HzeOsw/viewform?embedded=true" 
+style="
+min-width: 100%;
+border:none;"
+scrolling="yes">Loading…</iframe>
+
+
+
+{% endblock %}
